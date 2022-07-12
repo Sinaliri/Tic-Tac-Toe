@@ -8,7 +8,6 @@ let letterstatus;
 let gameActive=true;
 const winningMessage=()=> `Player ${letter} has won!`;
 const drawMessage = () => `Game ended in a draw!`;
-
 let gamestate = ["","","","","","","","","",]
 const winstatement=[
     [0,1,2],
